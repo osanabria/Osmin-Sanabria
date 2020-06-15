@@ -22,6 +22,6 @@ app.get("/", function(req, res)
   }
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 8080, function(){
   console.log("The Server Has Started!");
 });
