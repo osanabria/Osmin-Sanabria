@@ -1,0 +1,99 @@
+body{
+  background-color: white;
+ 
+  font-family: auto;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.navbar
+{
+  background-color: black;
+}
+#landing{
+  background-image: url("../img/laptop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+header{
+  text-align: center;
+}
+
+hr{
+  background-color: white;
+  width: 32em;
+}
+#title{
+  color: white;
+  padding-top: 8em;
+}
+#title h1{
+  font-size: 5em;
+}
+#title h3{
+  font-size: 2em;
+}
+
+.rounded-circle
+{
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: auto;
+}
+
+#section1{
+  margin: 5em auto;
+
+  color: black;
+  text-align: center;
+}
+
+#section1 h1{
+  font-size: 3.5em;
+  color: black;
+}
+#section1 hr{
+  background-color: grey;
+  width: 28em;
+}
+#section1 h5{
+  display: block;
+  width: 28em;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#projects{
+  background-image: url("../img/greyflower.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  text-align: center;
+
+}
+
+
+.card{
+  width: 100%;
+}
+
+.white{
+  color: white;
+}
+#projects h1
+{
+  padding-top: .5em;
+  font-size: 5em;
+}
+
+.col-md-3, .col-sm-6{
+  margin: 1.5em 0;
+}
+
+.footer {
+  height: 5em;
+}
