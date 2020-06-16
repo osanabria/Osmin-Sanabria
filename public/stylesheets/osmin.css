@@ -44,14 +44,15 @@ hr{
   height: auto;
 }
 
-#section1{
+#section1, #section2{
+  padding: 5em;
   margin: 5em auto;
 
   color: black;
   text-align: center;
 }
 
-#section1 h1{
+#section1 h1, #section2 h1{
   font-size: 3.5em;
   color: black;
 }
@@ -64,7 +65,6 @@ hr{
   width: 28em;
   margin: 0 auto;
   text-align: center;
-
 }
 
 #projects{
@@ -90,7 +90,7 @@ hr{
   font-size: 5em;
 }
 
-.col-md-3, .col-sm-6{
+.col-md-12, .col-sm-12{
   margin: 1.5em 0;
 }
 
@@ -111,10 +111,14 @@ hr{
   margin-top: 2.5em;
   text-align: center;
 }
-#contact hr{
+#contact hr, #section2 hr{
   background-color: black;
 }
 #footer
 {
   height: 5em;
+}
+.skills{
+  width: 35%;
+  margin: 0 auto;
 }

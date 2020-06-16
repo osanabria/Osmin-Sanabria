@@ -9,9 +9,11 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                  <a class="nav-item nav-link active" href="/">About Me <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="#">Projects</a>
-                  <a class="nav-item nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link active" href="#landing">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link active" href="#section1">About Me <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link active" href="#section2">Skills</a>
+                  <a class="nav-item nav-link active " href="#projects">Projects</a>
+                  <a class="nav-item nav-link active" href="#contact">Contact <span class="sr-only">(current)</span></a>
                 </div>
               </div>
         </div>  
@@ -38,10 +40,71 @@
   </h1>
   <hr/>
   <h5>
-    I am senior at the University of Arkansas. I am majoring in computer science with an emphasis in web development. Take a look at my projects to see what I have created. Feel free to contact me at any time.
+    I am a senior at the University of Arkansas. I am majoring in computer science with an emphasis in web development. Look at my projects to see what I have created. Feel free to contact me at any time.
 
    
   </h5>
+</section>
+<section id="section2">
+  <h1>
+    My Skills
+  </h1>
+  <hr/>
+  <div class="skills">
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="html5" data-toggle="list" href="#html5desc" role="tab" aria-controls="home">HTML5</a>
+          <a class="list-group-item list-group-item-action" id="css" data-toggle="list" href="#cssdesc" role="tab" aria-controls="profile">CSS</a>
+          <a class="list-group-item list-group-item-action" id="javascript" data-toggle="list" href="#jsdesc" role="tab" aria-controls="messages">Javascript</a>
+          <a class="list-group-item list-group-item-action" id="nodejs" data-toggle="list" href="#nodejsdesc" role="tab" aria-controls="settings">Node.js</a>
+          <a class="list-group-item list-group-item-action" id="express" data-toggle="list" href="#expressdesc" role="tab" aria-controls="settings">Express</a>
+          <a class="list-group-item list-group-item-action" id="mongodb" data-toggle="list" href="#mongodbdesc" role="tab" aria-controls="settings">Mongodb</a>
+          <a class="list-group-item list-group-item-action" id="bootstrap" data-toggle="list" href="#bootstrapdesc" role="tab" aria-controls="settings">Bootstrap 4</a>
+          <a class="list-group-item list-group-item-action" id="java" data-toggle="list" href="#javadesc" role="tab" aria-controls="settings">Java</a>
+          <a class="list-group-item list-group-item-action" id="c++" data-toggle="list" href="#c++desc" role="tab" aria-controls="settings">C++</a>
+          <a class="list-group-item list-group-item-action" id="git" data-toggle="list" href="#gitdesc" role="tab" aria-controls="settings">Git</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="html5desc" role="tabpanel" aria-labelledby="html5">
+            I know how to use classes, ids, and the new semantic tags to layout a page and make it easy to style with CSS. 
+          </div>
+          <div class="tab-pane fade" id="cssdesc" role="tabpanel" aria-labelledby="css">
+            I understand the block model, selectors, their weights. I remember a decent number of attributes by heart. I consider myself to have a good eye for design. 
+          </div>
+          <div class="tab-pane fade" id="jsdesc" role="tabpanel" aria-labelledby="javascript">
+            I am most familiar with vanilla JavaScript. I am still learning a lot of the quirks of JS and the new ES6 way of doing things, but I am very comfortable with using what I know to get problems fixed. I have solved what I would consider intermediate problems using JavaScript. 
+          </div>
+          <div class="tab-pane fade" id="nodejsdesc" role="tabpanel" aria-labelledby="nodejs">
+            I am very familiar with NodeJS. I am comfortable with restful routing and utilizing npm to help solve problems. I have a solid understanding of the backend and frontend interactions. I have worked with API's to be able to interact with other web applications. 
+          </div>
+          <div class="tab-pane fade" id="expressdesc" role="tabpanel" aria-labelledby="express">
+            I am comfortable using express to pass data easily between the frontend and backend. Using express in conjunction with EJS has allowed me to create many applications.
+          </div>
+          <div class="tab-pane fade" id="mongodbdesc" role="tabpanel" aria-labelledby="mongodb">
+            MongoDB is my preferred database. I am comfortable storing and extracting data from it. Using the npm mongoose I can use mongoDB with NodeJS. 
+          </div>
+          <div class="tab-pane fade" id="bootstrapdesc" role="tabpanel" aria-labelledby="bootstrap">
+            I have used bootstrap very frequently to help create quick and good-looking websites. I am familiar with many class names and remember many by heart. I am familiar with the grid model and use it to create most of my projects. 
+          </div>
+          <div class="tab-pane fade" id="javadesc" role="tabpanel" aria-labelledby="java">
+            In school I have completed multiple courses that use java as the main programing language. I am familiar with object-oriented programing, classes, polymorphism and all the main concepts associated with java. 
+          </div>
+          <div class="tab-pane fade" id="c++desc" role="tabpanel" aria-labelledby="c++">
+            In school I have completed multiple C++ courses. I am familiar with pointers and data structures such as linked list, sets, maps, dictionaries. I was also introduced to searching and sorting algorithms such as the quick sort, and binary search. 
+          </div>
+          <div class="tab-pane fade" id="gitdesc" role="tabpanel" aria-labelledby="git">
+            I have used GitHub for mostly all my projects. I am very familiar with committing and pushing to the master branch. I also know how to use git hub in conjunction with hosting services like Heroku to deploy a website. 
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </section>
 
 <div id="projects">
@@ -82,9 +145,9 @@
                   </div>
                   <div class="modallinks">
                     <a href="https://fswhiteboard.herokuapp.com/" target="_blank" class="btn btn-success btn-block">Live Demo</a>
-                    <a href="https://github.com/osanabria/Field-Support-Nights-Whiteboard" target="_blank" class="btn btn-success btn-block">Code</a>
+                    <a href="https://github.com/osanabria/Field-Support-Nights-Whiteboard" target="_blank" class="btn btn-primary btn-block">GitHub / Code</a>
                   </div>
-                  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci hic culpa suscipit accusamus voluptatem placeat qui quibusdam repellendus. Reprehenderit porro temporibus expedita nihil cumque soluta commodi, fugiat mollitia nostrum voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime non doloribus blanditiis consectetur quasi, perferendis aut suscipit dolores repudiandae provident quidem numquam officia libero ullam doloremque ipsum ab rerum ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci aperiam, odit maxime porro, nulla molestias beatae nostrum ex pariatur, commodi nesciunt eaque amet sint similique excepturi deserunt culpa aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt similique nesciunt repellat expedita natus aliquam dolores ipsa, ut aspernatur! Quam ex voluptates laboriosam impedit eius placeat distinctio modi excepturi nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquam laudantium culpa quod libero velit earum atque ipsam tenetur ullam assumenda accusantium provident odio officiis, asperiores laborum, itaque aliquid architecto. </div>
+                  <div>Working in the IT field there were often important issues that needed to be displayed for management to see. In my team we were using a physical whiteboard and when there was an impacting issue we would go up and write the issue on the whiteboard so management could see what was going on. after moving office spaces, we no longer had a space for the whiteboard. I suggested creating an online whiteboard where all the impacting issues could be displayed to management and given more context.</div>
                 </div> 
               </div> 
               <div class="modal-footer">
@@ -99,8 +162,8 @@
           
           <div class="card-body">
             <h2 class="card-title">FS Whiteboard</h2>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" data-toggle="modal" data-target="#fswhiteboardmodal" class="btn btn-success">Open model</a>
+            <p class="card-text">FS Whiteboard was a replacement for a physical whiteboard. On this site my team could display the impacting issue for management to see.</p>
+            <a href="#" data-toggle="modal" data-target="#fswhiteboardmodal" class="btn btn-primary">view project</a>
           </div>
         </div>
       </div>
@@ -138,9 +201,9 @@
                   </div>
                   <div class="modallinks">
                     <a href="https://fsturnoverboard.herokuapp.com/" target="_blank" class="btn btn-success btn-block">Live Demo</a>
-                    <a href="https://github.com/osanabria/FS-Turnover-Board" target="_blank" class="btn btn-success btn-block">Code</a>
+                    <a href="https://github.com/osanabria/FS-Turnover-Board" target="_blank" class="btn btn-primary btn-block">GitHub / Code</a>
                   </div>
-                  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci hic culpa suscipit accusamus voluptatem placeat qui quibusdam repellendus. Reprehenderit porro temporibus expedita nihil cumque soluta commodi, fugiat mollitia nostrum voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime non doloribus blanditiis consectetur quasi, perferendis aut suscipit dolores repudiandae provident quidem numquam officia libero ullam doloremque ipsum ab rerum ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci aperiam, odit maxime porro, nulla molestias beatae nostrum ex pariatur, commodi nesciunt eaque amet sint similique excepturi deserunt culpa aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt similique nesciunt repellat expedita natus aliquam dolores ipsa, ut aspernatur! Quam ex voluptates laboriosam impedit eius placeat distinctio modi excepturi nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquam laudantium culpa quod libero velit earum atque ipsam tenetur ullam assumenda accusantium provident odio officiis, asperiores laborum, itaque aliquid architecto. </div> 
+                  <div>After using the Whiteboard for some time, management wanted a better way of turning over these impacting issues to the next shift. the current way of doing it was messaging the next shift technician personally. We came up with a plan to have the ongoing impacting issues for every team be on a website. Then as the next shift came in, they could look on the website and assign themselves to the issue. This would save time and make the turnover process much smoother. </div> 
                 </div>  
               </div> 
               <div class="modal-footer">
@@ -155,8 +218,8 @@
           
           <div class="card-body">
             <h2 class="card-title">FS Turnover Board</h2>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" data-toggle="modal" data-target="#fsturnoverboardmodal" class="btn btn-success">Open model</a>
+            <p class="card-text">FS Turnover Board is an application I developed to make turning over IT issues to the next shift a lot more streamlined and time efficient.</p>
+            <a href="#" data-toggle="modal" data-target="#fsturnoverboardmodal" class="btn btn-primary">view project</a>
           </div>
         </div>
       </div>
@@ -191,9 +254,9 @@
                   </div>
                   <div class="modallinks">
                     <a href="https://linksite.herokuapp.com/" target="_blank" class="btn btn-success btn-block">Live Demo</a>
-                    <a href="https://github.com/osanabria/Link-Site" target="_blank" class="btn btn-success btn-block">Code</a>
+                    <a href="https://github.com/osanabria/Link-Site" target="_blank" class="btn btn-primary btn-block">GitHub / Code</a>
                   </div>
-                  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci hic culpa suscipit accusamus voluptatem placeat qui quibusdam repellendus. Reprehenderit porro temporibus expedita nihil cumque soluta commodi, fugiat mollitia nostrum voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime non doloribus blanditiis consectetur quasi, perferendis aut suscipit dolores repudiandae provident quidem numquam officia libero ullam doloremque ipsum ab rerum ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci aperiam, odit maxime porro, nulla molestias beatae nostrum ex pariatur, commodi nesciunt eaque amet sint similique excepturi deserunt culpa aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt similique nesciunt repellat expedita natus aliquam dolores ipsa, ut aspernatur! Quam ex voluptates laboriosam impedit eius placeat distinctio modi excepturi nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquam laudantium culpa quod libero velit earum atque ipsam tenetur ullam assumenda accusantium provident odio officiis, asperiores laborum, itaque aliquid architecto. </div>
+                  <div>My manager was having a hard time finding and organizing the multiple links he had. Since he had many the chrome bookmarks were not working for him, as he had a very long drop-down list to go through. To fix his issue I created an app to organize links. Additionally, I built in an export and import feature so that the links can be easily switched between chrome and my link site. I also added a sign in using bcyrpt for password encryption. </div>
                 </div>
                  
               </div>
@@ -209,8 +272,8 @@
           
           <div class="card-body">
             <h2 class="card-title">Link Site</h2>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" data-toggle="modal" data-target="#linksitemodal" class="btn btn-success">Open model</a>
+            <p class="card-text">This site helps organize and save links, in addition with being able to import and export links to other places like google chrome.</p>
+            <a href="#" data-toggle="modal" data-target="#linksitemodal" class="btn btn-primary">view project</a>
           </div>
         </div>
       </div>
@@ -245,9 +308,11 @@
                   </div>
                   <div class="modallinks">
                     <a href="https://templatedemails.herokuapp.com/" target="_blank" class="btn btn-success btn-block">Live Demo</a>
-                    <a href="https://github.com/osanabria/Email-Project" target="_blank" class="btn btn-success btn-block">Code</a>
+                    <a href="https://github.com/osanabria/Email-Project" target="_blank" class="btn btn-primary btn-block">GitHub / Code</a>
                   </div>
-                  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci hic culpa suscipit accusamus voluptatem placeat qui quibusdam repellendus. Reprehenderit porro temporibus expedita nihil cumque soluta commodi, fugiat mollitia nostrum voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime non doloribus blanditiis consectetur quasi, perferendis aut suscipit dolores repudiandae provident quidem numquam officia libero ullam doloremque ipsum ab rerum ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci aperiam, odit maxime porro, nulla molestias beatae nostrum ex pariatur, commodi nesciunt eaque amet sint similique excepturi deserunt culpa aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt similique nesciunt repellat expedita natus aliquam dolores ipsa, ut aspernatur! Quam ex voluptates laboriosam impedit eius placeat distinctio modi excepturi nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquam laudantium culpa quod libero velit earum atque ipsam tenetur ullam assumenda accusantium provident odio officiis, asperiores laborum, itaque aliquid architecto. </div>
+                  <div> 
+                    Working in the IT field some calls that were received were procedural. For procedural issues it is beneficial to send emails with steps to the person calling in. To make sending an email faster I created a web app that would store templates of known solutions to common issues and would allow the email to be quickly sent.
+                  </div>
                 </div>
                  
               </div>
@@ -263,8 +328,8 @@
           
           <div class="card-body">
             <h2 class="card-title">Email Project</h2>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" data-toggle="modal" data-target="#emailModal" class="btn btn-success">Open model</a>
+            <p class="card-text">This site allows you to save templates for emails that are often sent. Then load the template add the email address and send the email. </p>
+            <a href="#" data-toggle="modal" data-target="#emailModal" class="btn btn-primary">view project</a>
           </div>
         </div>
       </div>
