@@ -29,10 +29,10 @@ hr{
   color: white;
   padding-top: 8em;
 }
-#title h1{
+#title h1, #contact h1{
   font-size: 5em;
 }
-#title h3{
+#title h3, #contact h3{
   font-size: 2em;
 }
 
@@ -95,5 +95,26 @@ hr{
 }
 
 .footer {
+  height: 5em;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.modallinks{
+  margin-bottom: 2em;
+}
+
+#contact{
+  margin-top: 2.5em;
+  text-align: center;
+}
+#contact hr{
+  background-color: black;
+}
+#footer
+{
   height: 5em;
 }
