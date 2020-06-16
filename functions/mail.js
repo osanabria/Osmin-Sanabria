@@ -16,7 +16,7 @@ var methods = {
   
     var mailOptions = {
       from: emailAdd, // sender address (who sends)
-      to: "osanabri@uark.edu", // list of receivers (who receives)
+      to: "osmin.sanabria@gmail.com", // list of receivers (who receives)
       subject: subject, // Subject line
       // text: 'Hello world ', // plaintext body
       text: message, // html body
