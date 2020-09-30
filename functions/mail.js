@@ -7,7 +7,7 @@ var methods = {
   {
     var auth = {
       auth: {
-        api_key: 'key-c39a4865e67e574228993caf69146fb4',
+        api_key: 'key-5cf8659024b6164a817e308fb6b5dc7b',
         domain: 'osminsanabria.com'
       }
     };
