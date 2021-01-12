@@ -7,7 +7,10 @@ body{
 }
 .navbar
 {
+  font-family: sans-serif;
   background-color: black;
+  font-size: 16pt;
+  font-weight: 700;
 }
 #landing{
   background-image: url("../img/laptop.jpg");
@@ -125,4 +128,8 @@ hr{
 }
 .modal-header{
   margin: 0 auto;
+}
+
+.nav-item:hover{
+  background-color: grey;
 }
