@@ -1,5 +1,12 @@
 var nodemailer = require("nodemailer");
 var mg = require('nodemailer-mailgun-transport');
+require('dotenv').config();
+
+app.use(require("express-session")({
+    secret: "Once again Rusty wins cutest dog!",
+    resave: false,
+    saveUninitialized: false
+}));
 
 var methods = {
 
@@ -7,8 +14,8 @@ var methods = {
   {
     var auth = {
       auth: {
-        api_key: 'key-5cf8659024b6164a817e308fb6b5dc7b',
-        domain: 'osminsanabria.com'
+        api_key: process.env.API_KEY,
+        domain: 'sandboxcd0eab5e70eb44608a182083f8f907e2.mailgun.org'
       }
     };
   
@@ -16,7 +23,7 @@ var methods = {
   
     var mailOptions = {
       from: emailAdd, // sender address (who sends)
-      to: "osmin.sanabria@gmail.com", // list of receivers (who receives)
+      to: 'osmin.sanabria@gmail.com', // list of receivers (who receives)
       subject: subject, // Subject line
       // text: 'Hello world ', // plaintext body
       text: message, // html body
@@ -26,6 +33,8 @@ var methods = {
       if(err)
       {
         console.log("error ");
+        req.flash("error", "Message failed to send please try again ");
+        res.redirect("/register");
       }
       else
       {
